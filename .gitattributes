@@ -1,0 +1,11 @@
+# Language detection rules
+go.sum linguist-generated
+yarn.lock linguist-generated
+*.yaml linguist-detectable=false
+public/* linguist-vendored
+*.ico binary
+*.min.css linguist-generated
+
+*.tsx linguist-detectable
+app/**/*.tsx linguist-detectable
+*.yml linguist-detectable=false
